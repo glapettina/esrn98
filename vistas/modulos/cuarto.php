@@ -367,6 +367,26 @@
 
               </div>
 
+          <!-- ENTRADA PARA SELECCIONAR LA MODALIDAD -->
+
+            <div class="form-group">
+                
+                <div class="input-group">
+                  
+                  <span class="input-group-addon"><i class="fa fa-users"></i></span>
+                  
+                  <select class="form-control input-lg" id="editarModalidad" name="editarModalidad">
+                    
+                    <option value="">Seleccionar modalidad</option>
+                    <option value="Arte-Música">Arte-Música</option>
+                    <option value="Turismo">Turismo</option>
+
+                  </select>
+
+                </div>
+
+              </div>
+
               <!-- ENTRADA PARA EL CURSO --> 
 
               
@@ -385,6 +405,8 @@
                 </div>
 
               </div>
+
+
               
             </div>
             

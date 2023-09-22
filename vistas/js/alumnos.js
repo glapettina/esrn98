@@ -44,10 +44,12 @@ $(".tablas").on("click", ".btnEditarAlumno", function(){
 
 				if (tabla == "tercero" || tabla == "cuarto" || tabla == "quinto") {
 
+
 					$("#idAlumno").val(respuesta["id"]);
 					$("#editarDocumento").val(respuesta["documento"]);
 					$("#editarNombre").val(respuesta["nombre"]);
 					$("#editarModalidad").val(respuesta["modalidad"]);
+
 				}else{
 
 					$("#idAlumno").val(respuesta["id"]);
