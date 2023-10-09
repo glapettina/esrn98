@@ -224,19 +224,8 @@
                 
                 <div class="input-group">
                   
-                  
-                  <span class="input-group-addon"><i class="fa fa-user"></i></span>
-                  <select class="form-control input-lg" id="asistenciaCientifica" name="asistenciaCientifica">
-
-                  <option value="">Asistencia</option>
-                  <option value="0 %">0 %</option>
-                  <option value="25 %">25 %</option>
-                  <option value="50 %">50 %</option>
-                  <option value="75 %">75 %</option>
-                  <option value="100 %">100 %</option>
-                                        
-
-                  </select>
+                  <span class="input-group-addon"><i class="fa fa-th"></i></span>
+                  <input class="form-control input-lg" type="text" name="asistenciaCientifica" id="asistenciaCientifica" placeholder="Ingresar asistencia (%)" required>
 
                 </div>
 
